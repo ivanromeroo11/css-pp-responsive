@@ -1,0 +1,23 @@
+section{
+    background-color: black;
+}
+
+.header{
+    background-color: aqua;
+    
+}
+
+.hero{
+   background-color: red;
+}
+
+.sidebar{
+   background-color: blueviolet;
+}
+
+.content{
+   background-color: green;
+}
+.footer{
+   background-color: grey;
+}

@@ -1,23 +1,106 @@
-section{
-    background-color: black;
+body{
+   background-color: black;
 }
 
 .header{
     background-color: aqua;
-    
+    h2{
+      color: white;
+    }
+    p{
+      color: white;
+      
+   }
+   
 }
-
+    
 .hero{
    background-color: red;
+   h2{
+      color: white;
+    }
+   p{
+      color: white;
+   }
 }
 
 .sidebar{
    background-color: blueviolet;
+   h2{
+      color: white;
+    }
+   p{
+      color: white;
+   }
 }
 
 .content{
    background-color: green;
+   h2{
+      color: white;
+    }
+   p{
+      color: white;
+   }
 }
 .footer{
    background-color: grey;
+   h2{
+      color: white;
+    }
+   p{
+      color: white;
+   }
 }
+
+@media only screen and (max-width: 600px) {
+   body {
+     background-color: white;
+   }
+   .header{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 50px;
+   p{
+      display: none;
+      } 
+   }
+   .hero{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 200px;
+      p{
+         display: none;
+      }
+   }
+   .content{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 300px;
+   p{
+      display: none;
+   }
+   }
+   .sidebar{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 200px;
+   p{
+      display: none;
+   }
+   }
+   .footer{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 50px;
+      p{
+         display: none;
+      }
+
+   }
+ }

@@ -1,7 +1,9 @@
 body{
    background-color: black;
 }
-
+h1{
+   color: white;
+}
 .header{
     background-color: aqua;
     h2{
@@ -53,15 +55,19 @@ body{
    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 400px) {
    body {
      background-color: white;
    }
+   h1{
+      display: none;
+   }
+      
+   
    .header{
       border: 0;
       margin: 0;
       padding: 0;
-      height: 50px;
    p{
       display: none;
       } 
@@ -98,6 +104,61 @@ body{
       margin: 0;
       padding: 0;
       height: 50px;
+      p{
+         display: none;
+      }
+
+   }
+ }
+
+ @media only screen and (min-width: 600px ) {
+   body {
+     background-color: black;
+   }
+   h1{
+      display: block;
+   }
+   .header{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 148px;
+   p{
+      display: none;
+      } 
+   }
+   .hero{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 148px;
+      p{
+         display: none;
+      }
+   }
+   .content{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 148px;
+   p{
+      display: none;
+   }
+   }
+   .sidebar{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 148px;
+   p{
+      display: none;
+   }
+   }
+   .footer{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 148px;
       p{
          display: none;
       }

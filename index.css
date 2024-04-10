@@ -165,3 +165,67 @@ h1{
 
    }
  }
+
+ @media only screen and (min-width: 800px ) {
+   body {
+     background-color:black;
+   }
+   h1{
+      display: block;
+   }
+   .header{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 80px;
+      p{
+         display: block;
+         color: white;
+      }
+   
+   }
+   .hero{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 100px;
+      p{
+         display: block;
+         color: white;
+      }
+      
+   }
+   .content{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 400px;
+      p{
+         display: block;
+         color: white;
+      }
+   
+   }
+   .sidebar{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 100px;
+      p{
+         display: block;
+         color: white;
+      }
+   
+   }
+   .footer{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      height: 80px;
+      p{
+         display: block;
+         color: white;
+      }
+    
+   }
+ }
